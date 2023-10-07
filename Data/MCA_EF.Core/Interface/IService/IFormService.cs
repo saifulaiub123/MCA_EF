@@ -1,4 +1,4 @@
-﻿using MCA_EF.Core.ViewModel;
+﻿using MCA_EF.Core.Model;
 
 namespace MCA_EF.Core.Interface.IService
 {

@@ -1,5 +1,5 @@
 ﻿using MCA_EF.Core.Interface.IService;
-using MCA_EF.Core.ViewModel;
+using MCA_EF.Core.Model;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 

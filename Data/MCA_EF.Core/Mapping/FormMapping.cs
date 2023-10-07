@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using MCA_EF.Core.ViewModel;
+using MCA_EF.Core.Model;
 using MCA_EF.Data.Entities;
 
 namespace MCA_EF.Core.Mapping

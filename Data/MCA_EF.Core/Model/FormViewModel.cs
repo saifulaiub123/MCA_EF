@@ -1,4 +1,4 @@
-﻿namespace MCA_EF.Core.ViewModel
+﻿namespace MCA_EF.Core.Model
 {
     public class FormViewModel
     {
