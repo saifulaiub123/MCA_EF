@@ -1,5 +1,5 @@
-﻿using MCA_EF_API.Domain.DbContext;
-using MCA_EF_API.Domain.Entities;
+﻿using MCA_EF.Data.DbContext;
+using MCA_EF.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace MCA_EF_API.Seeder

@@ -24,4 +24,17 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Domain\DbContext\" />
+    <Folder Include="Domain\Entities\Configurations\" />
+    <Folder Include="Domain\ViewModel\" />
+    <Folder Include="Interface\IService\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCA_EF.Core\MCA_EF.Core.csproj" />
+  </ItemGroup>
+
 </Project>

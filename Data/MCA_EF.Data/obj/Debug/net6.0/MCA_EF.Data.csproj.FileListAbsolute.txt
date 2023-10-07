@@ -1,0 +1,14 @@
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.AssemblyInfoInputs.cache
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.AssemblyInfo.cs
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.csproj.CoreCompileInputs.cache
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.csproj.AssemblyReference.cache
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\bin\Debug\net6.0\MCA_EF.Data.deps.json
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\bin\Debug\net6.0\MCA_EF.Data.runtimeconfig.json
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\bin\Debug\net6.0\MCA_EF.Data.dll
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\bin\Debug\net6.0\MCA_EF.Data.pdb
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.dll
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\refint\MCA_EF.Data.dll
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.pdb
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\MCA_EF.Data.genruntimeconfig.cache
+G:\Saiful\Fiverr\Dileep\MCA_EF\MCA_EF\Data\MCA_EF.Data\obj\Debug\net6.0\ref\MCA_EF.Data.dll

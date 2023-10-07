@@ -1,8 +1,9 @@
-using MCA_EF_API.Domain.DbContext;
 using System.Reflection;
-using MCA_EF_API.Interface.IService;
+using MCA_EF.Core.Interface.IService;
+using MCA_EF.Core.Mapping;
+using MCA_EF.Core.Service;
+using MCA_EF.Data.DbContext;
 using MCA_EF_API.Seeder;
-using MCA_EF_API.Service;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -30,7 +31,7 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(FormMapping)));
 builder.Services.AddScoped<IFormService, FormService>();
 
 var app = builder.Build();
