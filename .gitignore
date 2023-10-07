@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Data/.vs
+/Data/Data/bin/Debug
+/Data/Data/obj
+/Data/MCA_EF_API/bin/Debug/net6.0
+/Data/MCA_EF_API/obj
