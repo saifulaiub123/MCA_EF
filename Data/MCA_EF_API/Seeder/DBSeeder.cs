@@ -1,6 +1,8 @@
-﻿using MCA_EF.Data.DbContext;
+﻿using System.Text.Json.Serialization;
+using MCA_EF.Data.DbContext;
 using MCA_EF.Data.Entities;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace MCA_EF_API.Seeder
 {
@@ -34,13 +36,9 @@ namespace MCA_EF_API.Seeder
             var person = await context.Person.FirstOrDefaultAsync(x=> x.PersonId == 1);
             if (person != null && !await context.Form.AnyAsync())
             {
-                await context.Form.AddAsync(new Form()
-                {
-                    FormExternalId = Guid.NewGuid(),
-                    CreatedBy = 1,
-                    CreatedDate = DateTime.UtcNow,
-                    IsActive = true
-                });
+                var dataJson = await File.ReadAllTextAsync(@"Seeder" + Path.DirectorySeparatorChar + "Data" + Path.DirectorySeparatorChar + "forms.json");
+                var data = JsonConvert.DeserializeObject<List<Form>>(dataJson);
+                await context.Form.AddRangeAsync(data);
                 await context.SaveChangesAsync();
             }
         }
